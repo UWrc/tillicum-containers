@@ -1,0 +1,24 @@
+Bootstrap: localimage
+From: python_latest.sif
+
+%post
+    # Ensure package index is up to date (if apt is available in base)
+    apt-get update || true
+
+    # Install Python packages
+    pip install --no-cache-dir numpy pandas matplotlib
+
+%environment
+    export PATH=/usr/local/bin:$PATH
+
+%runscript
+    python - << 'EOF'
+import numpy
+import pandas
+import matplotlib
+
+print("This is your custom Python container.")
+print("NumPy version:", numpy.__version__)
+print("Pandas version:", pandas.__version__)
+print("Matplotlib version:", matplotlib.__version__)
+EOF
