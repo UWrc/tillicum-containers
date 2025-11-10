@@ -23,14 +23,14 @@ Each topic in this tutorial is contained in its own Markdown file for easy navig
 | [01-apptainer-basics.md](./01-apptainer-basics.md) | Introducing Apptainer and commonly commands when working with containers on Tillicum |
 | [02-sandbox.md](./02-sandbox.md) | Practice building a custom container interactively |
 | [03-def-file.md](./03-def-file.md) | Practice building custom containers from definition files |
-| [04-task.md](./04-task.md) | Hands-on exercise:  |
+| [04-task.md](./04-task.md) | Hands-on exercise:  Run GPU-accelerated deep learning inference inside a container|
 
 ## Sources for pre-built Containers
    - **HIGHLY RECOMMENDED** - [DockerHub](https://hub.docker.com/)
    - **HIGHLY RECOMMENDED** - [NVIDIA NGC](https://catalog.ngc.nvidia.com/containers?filters=&orderBy=weightPopularDESC&query=&page=&pageSize=)
       and [For NVIDIA Containers for AI specifically](https://catalog.ngc.nvidia.com/?filters=&orderBy=weightPopularDESC&query=&page=&pageSize=)
    - [BioContainers](https://biocontainers.pro/registry)
-   - Google: "your-software-name Dockerfile"
+   - Google search: "your-software-name Dockerfile"
 
 ## Introduction Video
 
