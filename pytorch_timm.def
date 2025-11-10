@@ -1,0 +1,15 @@
+Bootstrap: localimage
+From: pytorch_25.10-py3.sif
+
+%post
+    pip install --no-cache-dir timm
+
+%environment
+    export PYTHONUNBUFFERED=1
+
+%labels
+    Maintainer="Your Name"
+    Description="PyTorch 25.10 + timm for model experimentation on Tillicum"
+
+%runscript
+    echo "This container includes timm. To test: python -c \"import timm; print(timm.__version__)\""

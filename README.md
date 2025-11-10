@@ -7,7 +7,11 @@
 Tillicum offers a shared computing environment with a baseline software stack and commonly used tools pre-installed. For security, users do not have root or sudo access and are responsible for managing any additional software required for their research. Guidance and support are available through documentation and the [Research Computing help desk](https://uwconnect.uw.edu/sp?id=sc_cat_item&sys_id=9e0fe8b58718fa906f1997dd3fbb35f3). Containers enable researchers to build and run customized software stacks on Tillicum in a secure, portable, and fully reproducible way—without requiring elevated system access.
 
 🎯 **By completing this tutorial, you’ll learn how to:**
-
+* Work with GPU-ready Apptainer containers on Tillicum, including pulling, inspecting, and running containers.
+* Create sandbox environments and build customized container images.
+* Access and use shared datasets from the Tillicum Data Commons.
+* Run GPU-accelerated deep learning inference inside a container.
+* Submit and monitor batch jobs on Tillicum using Slurm.
 
 ## Repository Structure
 
@@ -23,7 +27,7 @@ Each topic in this tutorial is contained in its own Markdown file for easy navig
 
 ## Sources for pre-built Containers
    - **HIGHLY RECOMMENDED** - [DockerHub](https://hub.docker.com/)
-   - **HIGHLY RECOMMENDED** - [NVIDIA Containers Catalog](https://catalog.ngc.nvidia.com/containers?filters=&orderBy=weightPopularDESC&query=&page=&pageSize=)
+   - **HIGHLY RECOMMENDED** - [NVIDIA NGC](https://catalog.ngc.nvidia.com/containers?filters=&orderBy=weightPopularDESC&query=&page=&pageSize=)
       and [For NVIDIA Containers for AI specifically](https://catalog.ngc.nvidia.com/?filters=&orderBy=weightPopularDESC&query=&page=&pageSize=)
    - [BioContainers](https://biocontainers.pro/registry)
    - Google: "your-software-name Dockerfile"
