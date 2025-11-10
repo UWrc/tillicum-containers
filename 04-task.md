@@ -226,7 +226,7 @@ Your challenge is to:
 
 [**This skills page may be helpful.**](https://github.com/UWrc/tillicum-slurm/blob/2856a9bcc3eeda15ce1549d0e932f8f5bf335f9c/04-job-arrays.md)
 
-Try to complete this with minimal guidance. Afterward, compare your solution to 
+Try to complete this with minimal guidance. Afterward, compare your solution to [array_inference.slurm](./array_inference.slurm).
 
 
 
