@@ -52,7 +52,7 @@ apptainer shell --writable --fakeroot ubuntu_latest
 * `--writable`: allows changes inside the container.
 * `--fakeroot`: simulates root access for users without root privileges.
 
-Note: When entering a sandbox container, your working directory inside the container may default to `/root` if the directory you were in on the host doesn’t exist in the container. This does not affect where software is installed. Software installed with apt always goes into the container’s filesystem, not the host system.
+> ⚠️ **Ignore this warning** - When entering a sandbox container, your working directory inside the container may default to `/root` if the directory you were in on the host doesn’t exist in the container. This does not affect where software is installed. Software installed with apt always goes into the container’s filesystem, not the host system.
 
 ## Install Software
 
