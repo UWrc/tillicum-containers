@@ -34,7 +34,7 @@ Each topic in this tutorial is contained in its own Markdown file for easy navig
 
 ## Video
 
-[Novemeber 13, 2025 Tillicum Containers workshop](https://youtu.be/T04BgJgHXRQ) full recording session. 
+[Novemeber 13, 2025 Tillicum Containers workshop](https://youtu.be/T04BgJgHXRQ) full recorded session. 
 
 ## Feedback
 
