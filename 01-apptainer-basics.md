@@ -94,6 +94,11 @@ Although Tillicum binds core filesystems automatically, it is important to under
 
 The general pattern looks like:
 ```bash
+apptainer exec --bind /gpfs python_latest.sif python pi.py
+```
+
+On Hyak Klone: 
+```bash
 # An example of the same command adapted for Hyak Klone
 apptainer exec --bind /gscratch python_latest.sif python pi.py
 ```
