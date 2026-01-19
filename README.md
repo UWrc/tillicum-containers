@@ -19,7 +19,7 @@ Each topic in this tutorial is contained in its own Markdown file for easy navig
 
 | Section | Description |
 | :- | :- |
-| [Presentation](./tillicum-container.pdf) | Slide deck from the November 13 workshop |
+| [Presentation](./tillicum-containers.pdf) | Slide deck from the November 13 workshop |
 | [00-preparation.md](./00-preparation.md) | Logging in via SSH and setting up your working directory |
 | [01-apptainer-basics.md](./01-apptainer-basics.md) | Introducing Apptainer and commonly commands when working with containers on Tillicum |
 | [02-sandbox.md](./02-sandbox.md) | Practice building a custom container interactively |
